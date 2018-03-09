@@ -1,0 +1,9 @@
+Package: tk.ethanrdoesmc.translucencyparallax
+Name: Translucency Parallax
+Depends: mobilesubstrate, firmware (>= 11.0)
+Version: 0.0.1-Alpha
+Architecture: iphoneos-arm
+Description: Make iOS 11 translucent!
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Section: Tweaks
