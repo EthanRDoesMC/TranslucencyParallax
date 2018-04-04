@@ -5,7 +5,7 @@
 		icon = "/Library/PreferenceLoader/Preferences/ParallaxTemporaryGlyph.png";
 		isController = 1;
 		label = "Translucency Parallax";
-		ALSettingsPath = "/var/mobile/Library/Preferences/tk.ethanrdoesmc.parallaxpreferences";
+		ALSettingsPath = "/var/mobile/Library/Preferences/tk.ethanrdoesmc.parallaxpreferences.plist";
 		ALSettingsKeyPrefix = "";
 		ALChangeNotification = "tk.ethanrdoesmc.parallax.updated";
 		ALAllowsSelection = 1;

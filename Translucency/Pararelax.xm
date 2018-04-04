@@ -119,10 +119,10 @@ static UIWindow *TPLXwindow = nil;
     
     NSString *identifier = [NSBundle mainBundle].bundleIdentifier;
     NSString *sbBundle = @"com.apple.springboard";
-    NSString *plistPath = @"/User/Library/Preferences/tk.ethanrdoesmc.parallaxpreferences.plist";
-    NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+    //NSString *plistPath = @"/User/Library/Preferences/tk.ethanrdoesmc.parallaxpreferences.plist";
+    //NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
    // if ([[plistDict objectForKey:identifier] boolValue]) {
-    if ([[plistDict objectForKey:identifier] boolValue] && ![identifier isEqualToString:sbBundle]) {
+    if (![identifier isEqualToString:sbBundle]) {
         %init(ParallaxMain);
         
     }
