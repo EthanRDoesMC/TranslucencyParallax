@@ -1,10 +1,11 @@
 Package: tk.ethanrdoesmc.translucencyparallax
 Name: Translucency Parallax
 Depends: mobilesubstrate, firmware (>= 7.0)
-Version: 0.0.4
 Architecture: iphoneos-arm
 Depiction: http://ethanrdoesmc.tk/repo/depictions/?p=tk.ethanrdoesmc.parallax/
 Description: Make iOS translucent!
 Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
 Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
 Section: Tweaks
+Version: 0.0.4-1+debug
+Installed-Size: 132

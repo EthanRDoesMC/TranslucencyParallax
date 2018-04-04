@@ -1,0 +1,30 @@
+{
+	entry = {
+		bundle = AppList;
+		cell = PSLinkCell;
+		icon = "/Library/PreferenceLoader/Preferences/ParallaxTemporaryGlyph.png";
+		isController = 1;
+		label = "Translucency Parallax";
+		ALSettingsPath = "/var/mobile/Library/Preferences/tk.ethanrdoesmc.parallaxpreferences";
+		ALSettingsKeyPrefix = "";
+		ALChangeNotification = "tk.ethanrdoesmc.parallax.updated";
+		ALAllowsSelection = 1;
+		ALSectionDescriptors = (
+			{
+				title = "System Applications";
+				predicate = "isSystemApplication = TRUE";
+				"cell-class-name" = ALSwitchCell;
+				"icon-size" = 29;
+				"suppress-hidden-apps" = 0;
+			},
+			{
+				title = "User Applications";
+				predicate = "isSystemApplication = FALSE";
+				"cell-class-name" = ALSwitchCell;
+				"icon-size" = 29;
+				"suppress-hidden-apps" = 0;
+				"footer-title" = "Created by EthanRDoesMC";
+			},
+		);
+	};
+}
